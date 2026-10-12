@@ -1,0 +1,36 @@
+{
+  "case_label": "Synthetic example - NOT USYD nozzle data",
+  "gas": {
+    "chamber_pressure_Pa": 2000000.0,
+    "stagnation_temperature_K": 2800.0,
+    "gamma": 1.2,
+    "cp_J_kgK": 2400.0000000000005,
+    "viscosity_Pa_s": 8e-05,
+    "Prandtl": 0.7,
+    "c_star_m_s": 1631.8421877444737,
+    "throat_curvature_radius_m": 0.025,
+    "back_pressure_Pa": 0.0,
+    "bartz_multiplier": 1.0
+  },
+  "wall": {
+    "description": "Illustrative homogeneous wall; not a specified material grade",
+    "conductivity_W_mK": 30.0,
+    "density_kg_m3": 7800.0,
+    "cp_J_kgK": 600.0,
+    "initial_temperature_K": 293.15
+  },
+  "external": {
+    "description": "Prescribed effective cooling film; no coolant circuit is modelled",
+    "h_W_m2K": 8000.0,
+    "bulk_temperature_K": 293.15,
+    "surroundings_temperature_K": 293.15,
+    "emissivity": 0.7
+  },
+  "transient": {
+    "burn_duration_s": 1.0,
+    "radial_cells": 24,
+    "output_times": 101,
+    "rtol": 1e-06,
+    "atol_K": 1e-05
+  }
+}

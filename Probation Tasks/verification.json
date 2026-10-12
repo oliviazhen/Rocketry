@@ -1,0 +1,42 @@
+{
+  "radial_grid_study": [
+    {
+      "radial_cells": 12,
+      "throat_inner_K": 1476.8207191392275,
+      "throat_outer_K": 758.3917402592681,
+      "energy_audit_relative_error": 3.9119090623202165e-16
+    },
+    {
+      "radial_cells": 24,
+      "throat_inner_K": 1476.953572216721,
+      "throat_outer_K": 758.5043385178967,
+      "energy_audit_relative_error": 6.515012402882822e-16
+    },
+    {
+      "radial_cells": 48,
+      "throat_inner_K": 1476.987052701341,
+      "throat_outer_K": 758.5328120611723,
+      "energy_audit_relative_error": 3.908281458679393e-16
+    }
+  ],
+  "radial_24_vs_48_throat_difference_K": 0.03348048461998587,
+  "temporal_tolerance_difference_K": 0.0032712827924115118,
+  "axial_grid_study": [
+    {
+      "axial_stations": 121,
+      "peak_inner_K": 1786.5397025013503,
+      "peak_heat_flux_W_m2": 7918038.388835202
+    },
+    {
+      "axial_stations": 241,
+      "peak_inner_K": 1787.3412275471517,
+      "peak_heat_flux_W_m2": 7928393.521952604
+    },
+    {
+      "axial_stations": 481,
+      "peak_inner_K": 1787.3498312318789,
+      "peak_heat_flux_W_m2": 7928393.521952604
+    }
+  ],
+  "note": "Numerical verification only; no experimental validation"
+}
